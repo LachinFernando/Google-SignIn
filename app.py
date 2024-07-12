@@ -6,7 +6,7 @@ from requests_oauthlib import OAuth2Session
 # Google OAuth2 credentials
 client_id = st.secrets["CLIENT_ID"]
 client_secret = st.secrets["CLIENT_SECRET"]
-redirect_uri = "https://azratrysignin.streamlit.app"
+redirect_uri = "https://azratrysignin.streamlit.app/"
 
 # OAuth endpoints
 authorization_base_url = "https://accounts.google.com/o/oauth2/auth"
