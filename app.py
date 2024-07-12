@@ -65,7 +65,7 @@ else:
 
     if st.session_state.oauth_state is None:
         st.session_state.oauth_state = state
-
+    st.write(redirect_uri)
     st.markdown(f"[Login with Google]({authorization_url})")
 
     authorization_response = st.experimental_get_query_params()
